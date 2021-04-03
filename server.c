@@ -26,7 +26,7 @@ int main()
   
     bind(udpSocket, (struct sockaddr*)&serverAddr, sizeof(serverAddr));
   
-    addr_size = sizeof serverStorage;
+    addr_size = sizeof serverStorage; 
     puts("Waiting for client :");
     int count = 0;
   
