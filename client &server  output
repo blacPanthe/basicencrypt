@@ -1,0 +1,8 @@
+# client
+gcc client_udp.c -o sa
+./sa
+
+# client
+gcc server_udp.c -o sd
+./sd
+
