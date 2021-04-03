@@ -34,7 +34,7 @@ int main()
         if (fp == NULL) {
             printf("file does not exist\n");
         }
-  
+     
         fseek(fp, 0, SEEK_END);
         size_t file_size = ftell(fp);
         fseek(fp, 0, SEEK_SET);
