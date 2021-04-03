@@ -68,7 +68,7 @@ int main()
         // printing some of the character to have a feel of decryption
         printf("Decrypted message: (First 15 characters)\n");
         for (i = 0; i < 11; ++i)
-            printf("%c ", x[i]);
+            printf("%c ", x[i]); 
   
         printf("\n");
     }
